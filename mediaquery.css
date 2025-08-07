@@ -1,0 +1,171 @@
+/* media query above 1495px responsive  */
+
+@media screen and (max-width: 1495px) {
+  #offer-cards {
+    padding-inline: 20px;
+  }
+
+  #sub-hero-section {
+    margin-inline: 20px;
+  }
+
+  #phone-section {
+    margin-inline: 20px;
+  }
+
+  #feature-cards-section {
+    margin-inline: 20px;
+  }
+
+  #Shop-deals {
+    margin-inline: 20px;
+  }
+
+  #last-card-section {
+    margin-inline: 20px;
+  }
+}
+
+/* media query less then 1495px responsive  */
+
+@media screen and (max-width: 1495px) {
+  #sub-navbar {
+    min-width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+  }
+
+  #all-section {
+    display: none;
+  }
+
+  #festival-live-offer {
+    display: none;
+  }
+
+  #products-sec {
+    flex-basis: 100%;
+  }
+
+  #product-list {
+    justify-content: space-evenly;
+    flex-grow: 1;
+  }
+
+  #logo-section {
+    flex-basis: 10%;
+  }
+
+  #pin-code-sec {
+    display: none;
+  }
+
+  #cart-section {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  #fourth-card {
+    display: none;
+  }
+}
+
+/* media query less then 1280px responsive  */
+
+@media screen and (max-width: 1460px) {
+  #feature-cards {
+    gap: 20px;
+  }
+
+  #last-card-section {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+ 
+  #shop-cart5 {
+    display: none;
+  }
+
+ 
+
+  .right-shop-deal {
+    flex-basis: 50%;
+    height: 100%;
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+  }
+
+  .left-shop-deal {
+    flex-grow: 1;
+  }
+  .shop-deal-cart {
+    flex-basis: 25%;
+  }
+
+}
+
+@media screen and (max-width: 1330px) {
+  #shop-cart4 {
+    display: none;
+  }
+
+  .shop-deal-cart {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .hero-template {
+    height: 400px;
+  }
+
+  .hero-template h2 {
+    font-size: 21px;
+  }
+
+  .hero-template a {
+    margin-top: 0px;
+  }
+  #feature-cards {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #last-card-section {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #hero-section {
+    height: 300px;
+  }
+
+  #image {
+    background: url(/Amazon-clone/asset/Bestsellers_in_facewashes.png);
+    background-size: cover;
+    background-position: top;
+    margin-top: 50px;
+    overflow: auto;
+  
+    
+  }
+
+  #offer-cards {
+    display: none;
+  }
+
+  body {
+    background-color: blanchedalmond;
+  }
+
+  
+}
+
+
